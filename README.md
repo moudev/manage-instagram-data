@@ -18,6 +18,8 @@ npm install
 - Rename the file `.env.sample` to the name `.env`
 - Add the instagram credentials
 
+***IMPORTANT:*** the two factor authentication ***should be disabled***.
+
 ## Get feed & archive feed
 
 Save the entire feed in a JSON file and archive ***all the publications***.
