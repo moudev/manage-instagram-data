@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "fs": "0.0.1-security",
     "instagram-private-api": "^1.45.3"
   }
