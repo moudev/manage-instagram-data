@@ -18,7 +18,7 @@
   const user = await ig.account.login(process.env.IG_USERNAME, process.env.IG_PASSWORD)
 
   switch (myArgs[0]) {
-    case '--get-data':
+    case '--get':
       try {
         const items = await ig.feed.user(user.pk).items()
         // https://nodejs.org/en/knowledge/file-system/how-to-write-files-in-nodejs/
@@ -30,7 +30,7 @@
         console.log(error)
       }
       break;
-    case '--save-data':
+    case '--archive':
       try {
         // https://attacomsian.com/blog/nodejs-read-write-json-files
         const publications = JSON.parse(fs.readFileSync(FILENAME, 'utf8'))

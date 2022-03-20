@@ -24,18 +24,18 @@ Save the entire feed in a JSON file and archive ***all the publications***.
 
 First, it's necessary `get` the feed, and the second step is `archive` the feed. Each one is a param of the shell.
 
-The `--get-data` param saves the data in the `feed-data.json` file and the `--save-data` param read the data from `feed-data.json` and archives each publication.
+The `--get` param saves the data in the `feed-data.json` file and the `--archive` param read the data from `feed-data.json` and archives each publication.
 
 ***Get feed*** (first step)
 
 ```bash
-node save-all-feed.js --get-data
+node save-all-feed.js --get
 ```
 
 ***Archive feed*** (second step)
 
 ```bash
-node save-all-feed.js --save-data
+node save-all-feed.js --archive
 ```
 
 ## Save account followers & account following list
